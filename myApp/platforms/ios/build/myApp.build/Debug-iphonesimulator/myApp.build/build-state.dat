@@ -1,1401 +1,0 @@
-TmyApp
-v6
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/Info.plist /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/myApp-Info.plist
-cPhaseScriptExecution Copy\ www\ directory /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Script-304B58A110DAC018002A0835.sh
-cCpResource myApp/Resources/icons/icon-76.png build/emulator/myApp.app/icon-76.png
-cCpResource myApp/Resources/icons/icon-40@2x.png build/emulator/myApp.app/icon-40@2x.png
-cCpResource myApp/Resources/icons/icon-72.png build/emulator/myApp.app/icon-72.png
-cCpResource myApp/Resources/icons/icon.png build/emulator/myApp.app/icon.png
-cCpResource myApp/Resources/icons/icon@2x.png build/emulator/myApp.app/icon@2x.png
-cCopyStringsFile /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/en.lproj/Localizable.strings myApp/Resources/en.lproj/Localizable.strings
-cCompileXIB /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/MainViewController.xib
-cCpResource myApp/Resources/icons/icon-50.png build/emulator/myApp.app/icon-50.png
-cCpResource myApp/Resources/icons/icon-60@2x.png build/emulator/myApp.app/icon-60@2x.png
-cCopyStringsFile /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/de.lproj/Localizable.strings myApp/Resources/de.lproj/Localizable.strings
-cCpResource myApp/Resources/icons/icon-small.png build/emulator/myApp.app/icon-small.png
-cCpResource myApp/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/myApp.app/Default-Landscape@2x~ipad.png
-cCpResource myApp/Resources/splash/Default-Landscape~ipad.png build/emulator/myApp.app/Default-Landscape~ipad.png
-cCpResource myApp/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/myApp.app/Default-Portrait@2x~ipad.png
-cCpResource myApp/Resources/icons/icon-small@2x.png build/emulator/myApp.app/icon-small@2x.png
-cCpResource myApp/Resources/splash/Default-Portrait~ipad.png build/emulator/myApp.app/Default-Portrait~ipad.png
-cCpResource myApp/Resources/icons/icon-40.png build/emulator/myApp.app/icon-40.png
-cCpResource myApp/Resources/splash/Default@2x~iphone.png build/emulator/myApp.app/Default@2x~iphone.png
-cCpResource myApp/Resources/icons/icon-60.png build/emulator/myApp.app/icon-60.png
-cCpResource myApp/Resources/splash/Default~iphone.png build/emulator/myApp.app/Default~iphone.png
-cCpResource myApp/Resources/splash/Default-568h@2x~iphone.png build/emulator/myApp.app/Default-568h@2x~iphone.png
-cCpResource myApp/Resources/icons/icon-50@2x.png build/emulator/myApp.app/icon-50@2x.png
-cCpResource myApp/Resources/icons/icon-76@2x.png build/emulator/myApp.app/icon-76@2x.png
-cCpResource myApp/Resources/icons/icon-72@2x.png build/emulator/myApp.app/icon-72@2x.png
-cProcessPCH /var/folders/7j/w3062mfs5pzfs32nqxp_dln80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/myApp-Prefix-awwwwdwvgtwkwzdvgmjdafnaskbs/myApp-Prefix.pch.pch myApp/myApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/main.o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/AppDelegate.o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/MainViewController.o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/IonicKeyboard.o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/IonicKeyboard.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/UIWebViewExtension.o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/UIWebViewExtension.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/CDVLogger.o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/org.apache.cordova.console/CDVLogger.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/CDVDevice.o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/org.apache.cordova.device/CDVDevice.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/myApp normal i386
-cGenerateDSYMFile /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app.dSYM /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/myApp
-cTouch /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
-c00000000537BE8E80000000000000198
-t1400629480
-s408
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
-c00000000531F905F00000000000003B4
-t1394577503
-s948
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000531F9063000000000000019E
-t1394577507
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c00000000531F90640000000000484210
-t1394577508
-s4735504
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
-c00000000531F90630000000000098030
-t1394577507
-s622640
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
-c00000000531F90630000000000059340
-t1394577507
-s365376
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c00000000531F906400000000005B82F0
-t1394577508
-s5997296
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c00000000537BE8CC0000000000446820
-t1400629452
-s4483104
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c00000000531F906400000000000F1A80
-t1394577508
-s989824
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
-c00000000531F9064000000000013B8C0
-t1394577508
-s1292480
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000531F9065000000000088D8C0
-t1394577509
-s8968384
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
-c00000000531F906500000000001BE790
-t1394577509
-s1828752
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c00000000531F90670000000001F1DE10
-t1394577511
-s32628240
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-c00000000531F906D00000000002BC360
-t1394577517
-s2868064
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
-c00000000531F90700000000000002338
-t1394577520
-s9016
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
-c00000000531F9070000000000008D370
-t1394577520
-s578416
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
-c00000000531F90700000000000392E20
-t1394577520
-s3747360
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
-c00000000537D67B700000000000141F0
-t1400727479
-s82416
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
-c00000000531F90700000000000014A80
-t1394577520
-s84608
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
-c00000000531F90700000000000033BA0
-t1394577520
-s211872
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
-c00000000531F9070000000000001CFB0
-t1394577520
-s118704
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
-c00000000531F9070000000000001B2B0
-t1394577520
-s111280
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
-c00000000531F907100000000000C9570
-t1394577521
-s824688
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
-c00000000531F90710000000000063280
-t1394577521
-s406144
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
-c00000000531F90700000000000008880
-t1394577520
-s34944
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
-c00000000531F90700000000000015080
-t1394577520
-s86144
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
-c00000000531F907100000000000230F0
-t1394577521
-s143600
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
-c00000000531F9070000000000000E380
-t1394577520
-s58240
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
-c00000000531F90710000000000089380
-t1394577521
-s562048
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
-c00000000531F90710000000000017320
-t1394577521
-s95008
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
-c00000000531F90710000000000039CD0
-t1394577521
-s236752
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
-c00000000531F9071000000000000B0B0
-t1394577521
-s45232
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
-c00000000531F90710000000000167E80
-t1394577521
-s1474176
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
-c00000000531F907100000000000106A0
-t1394577521
-s67232
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
-c00000000531F9071000000000001CE40
-t1394577521
-s118336
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
-c00000000531F907100000000000740C0
-t1394577521
-s475328
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
-c00000000531F9071000000000006CA60
-t1394577521
-s445024
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
-c00000000531F9071000000000001BAD0
-t1394577521
-s113360
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
-c00000000531F90710000000000084A20
-t1394577521
-s543264
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
-c00000000537BE8CC000000000000514C
-t1400629452
-s20812
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDV.h
-c0000000053FCAFB10000000000000516
-t1409068977
-s1302
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-c0000000053FCAFB10000000000000D19
-t1409068977
-s3353
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-c0000000053FCAFB100000000000008BA
-t1409068977
-s2234
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-c0000000053FCAFB100000000000004E2
-t1409068977
-s1250
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-c0000000053FCAFB10000000000000503
-t1409068977
-s1283
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-c0000000053FCAFB10000000000000401
-t1409068977
-s1025
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-c0000000053FCAFB100000000000007E6
-t1409068977
-s2022
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-c0000000053FCAFB100000000000003DA
-t1409068977
-s986
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-c0000000053FCAFB100000000000006CF
-t1409068977
-s1743
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-c0000000053FCAFB100000000000008F3
-t1409068977
-s2291
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-c0000000053FCAFB10000000000000C13
-t1409068977
-s3091
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-c0000000053FCAFB10000000000000408
-t1409068977
-s1032
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-c0000000053FCAFB1000000000000038D
-t1409068977
-s909
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-c0000000053FCAFB1000000000000041C
-t1409068977
-s1052
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-c0000000053FCAFB10000000000000ACC
-t1409068977
-s2764
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-c0000000053FCAFB100000000000004B4
-t1409068977
-s1204
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-c0000000053FCAFB10000000000000392
-t1409068977
-s914
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-c0000000053FCAFB1000000000000037D
-t1409068977
-s893
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-c0000000053FCAFB100000000000005DA
-t1409068977
-s1498
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-c0000000053FCAFB100000000000003A0
-t1409068977
-s928
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-c0000000053FCAFB10000000000000476
-t1409068977
-s1142
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/libCordova.a
-c0000000053FCAFB100000000000D45C8
-t1409068977
-s869832
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app
-t1409079622
-s1020
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app.dSYM
-t1409079493
-s102
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/Default-568h@2x~iphone.png
-t1409068978
-s34225
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/Default-Landscape@2x~ipad.png
-t1409068978
-s212234
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/Default-Landscape~ipad.png
-t1409068978
-s91810
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/Default-Portrait@2x~ipad.png
-t1409068978
-s212860
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/Default-Portrait~ipad.png
-t1409068978
-s91713
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/Default@2x~iphone.png
-t1409068978
-s29475
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/Default~iphone.png
-t1409068978
-s10394
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/Info.plist
-t1409079621
-s1286
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/MainViewController.nib
-t1409068978
-s836
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/PkgInfo
-t2
-s0
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/de.lproj/Localizable.strings
-t1409068978
-s280
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/en.lproj/Localizable.strings
-t1409068978
-s166
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-40.png
-t1409068978
-s4082
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-40@2x.png
-t1409068978
-s7411
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-50.png
-t1409068978
-s4874
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-50@2x.png
-t1409068978
-s9611
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-60.png
-t1409068978
-s5811
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-60@2x.png
-t1409068978
-s11924
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-72.png
-t1409068978
-s4944
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-72@2x.png
-t1409068978
-s11706
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-76.png
-t1409068978
-s7025
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-76@2x.png
-t1409068978
-s15262
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-small.png
-t1409068978
-s3294
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-small@2x.png
-t1409068978
-s5608
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon.png
-t1409068978
-s3902
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon@2x.png
-t1409068978
-s7869
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/myApp
-t1409068979
-s300912
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/AppDelegate.o
-t1409068979
-s77424
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/CDVDevice.o
-t1409068979
-s50360
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/CDVLogger.o
-t1409068979
-s41556
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/IonicKeyboard.o
-t1409068979
-s63772
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/MainViewController.o
-t1409068979
-s51592
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/UIWebViewExtension.o
-t1409068979
-s46332
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/main.o
-t1409068979
-s3004
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/myApp.LinkFileList
-c0000000053FCAFB10000000000000426
-t1409068977
-s1062
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Script-304B58A110DAC018002A0835.sh
-c0000000053FCAFB1000000000000002D
-t1409068977
-s45
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/AppDelegate.h
-c0000000053FCAFA200000000000005AF
-t1409068962
-s1455
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/AppDelegate.m
-c0000000053FCAFA20000000000001765
-t1409068962
-s5989
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/MainViewController.h
-c0000000053FCAFA200000000000004CB
-t1409068962
-s1227
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/MainViewController.m
-c0000000053FCAFA20000000000001266
-t1409068962
-s4710
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/MainViewController.xib
-c0000000053FCAFA20000000000001759
-t1409068962
-s5977
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/IonicKeyboard.h
-c0000000053FCAFA2000000000000014A
-t1409068962
-s330
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/IonicKeyboard.m
-c0000000053FCAFA20000000000001357
-t1409068962
-s4951
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/UIWebViewExtension.h
-c0000000053FCAFA200000000000000A8
-t1409068962
-s168
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/UIWebViewExtension.m
-c0000000053FCAFA20000000000000D93
-t1409068962
-s3475
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/org.apache.cordova.console/CDVLogger.h
-c0000000053FCAFA2000000000000037F
-t1409068962
-s895
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/org.apache.cordova.console/CDVLogger.m
-c0000000053FCAFA20000000000000490
-t1409068962
-s1168
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/org.apache.cordova.device/CDVDevice.h
-c0000000053FCAFA200000000000003BD
-t1409068962
-s957
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/org.apache.cordova.device/CDVDevice.m
-c0000000053FCAFA20000000000000C22
-t1409068962
-s3106
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/de.lproj/Localizable.strings
-c0000000053FCAFA200000000000004C0
-t1409068962
-s1216
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/en.lproj/Localizable.strings
-c0000000053FCAFA200000000000004AB
-t1409068962
-s1195
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-40.png
-c0000000053FCAFA20000000000000FF2
-t1409068962
-s4082
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-40@2x.png
-c0000000053FCAFA20000000000001CF3
-t1409068962
-s7411
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-50.png
-c0000000053FCAFA2000000000000130A
-t1409068962
-s4874
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-50@2x.png
-c0000000053FCAFA2000000000000258B
-t1409068962
-s9611
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-60.png
-c0000000053FCAFA200000000000016B3
-t1409068962
-s5811
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-60@2x.png
-c0000000053FCAFA20000000000002E94
-t1409068962
-s11924
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-72.png
-c0000000053FCAFA20000000000001350
-t1409068962
-s4944
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-72@2x.png
-c0000000053FCAFA20000000000002DBA
-t1409068962
-s11706
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-76.png
-c0000000053FCAFA20000000000001B71
-t1409068962
-s7025
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-76@2x.png
-c0000000053FCAFA20000000000003B9E
-t1409068962
-s15262
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-small.png
-c0000000053FCAFA20000000000000CDE
-t1409068962
-s3294
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-small@2x.png
-c0000000053FCAFA200000000000015E8
-t1409068962
-s5608
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon.png
-c0000000053FCAFA20000000000000F3E
-t1409068962
-s3902
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon@2x.png
-c0000000053FCAFA20000000000001EBD
-t1409068962
-s7869
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/splash/Default-568h@2x~iphone.png
-c0000000053FCAFA200000000000085B1
-t1409068962
-s34225
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/splash/Default-Landscape@2x~ipad.png
-c0000000053FCAFA20000000000033D0A
-t1409068962
-s212234
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/splash/Default-Landscape~ipad.png
-c0000000053FCAFA200000000000166A2
-t1409068962
-s91810
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/splash/Default-Portrait@2x~ipad.png
-c0000000053FCAFA20000000000033F7C
-t1409068962
-s212860
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/splash/Default-Portrait~ipad.png
-c0000000053FCAFA20000000000016641
-t1409068962
-s91713
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/splash/Default@2x~iphone.png
-c0000000053FCAFA20000000000007323
-t1409068962
-s29475
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/splash/Default~iphone.png
-c0000000053FCAFA2000000000000289A
-t1409068962
-s10394
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/main.m
-c0000000053FCAFA20000000000000457
-t1409068962
-s1111
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/myApp-Info.plist
-c0000000053FCD9450000000000000A1C
-t1409079621
-s2588
-
-N/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/myApp-Prefix.pch
-c0000000053FCAFA200000000000003BB
-t1409068962
-s955
-
-N/usr/lib/libSystem.B.dylib
-c00000000537D67B7000000000000E6D0
-t1400727479
-s59088
-
-N/usr/lib/system/libcache.dylib
-c00000000528BE9D30000000000012A00
-t1384901075
-s76288
-
-N/usr/lib/system/libcommonCrypto.dylib
-c00000000528BE9B2000000000002E320
-t1384901042
-s189216
-
-N/usr/lib/system/libcompiler_rt.dylib
-c00000000528BE9C20000000000021860
-t1384901058
-s137312
-
-N/usr/lib/system/libcopyfile.dylib
-c00000000528BE9D2000000000001B620
-t1384901074
-s112160
-
-N/usr/lib/system/libcorecrypto.dylib
-c00000000528BE9D200000000000BD920
-t1384901074
-s776480
-
-N/usr/lib/system/libkeymgr.dylib
-c00000000528BE9D3000000000000A120
-t1384901075
-s41248
-
-N/usr/lib/system/liblaunch.dylib
-c0000000053111FA6000000000001D550
-t1393631142
-s120144
-
-N/usr/lib/system/libmacho.dylib
-c00000000528BE9D20000000000014EE0
-t1384901074
-s85728
-
-N/usr/lib/system/libquarantine.dylib
-c00000000528BE9D50000000000010380
-t1384901077
-s66432
-
-N/usr/lib/system/libremovefile.dylib
-c00000000528BE9D5000000000000C4C0
-t1384901077
-s50368
-
-N/usr/lib/system/libsystem_asl.dylib
-c00000000528BE9D300000000000357A0
-t1384901075
-s219040
-
-N/usr/lib/system/libsystem_blocks.dylib
-c00000000528BE9D3000000000000C070
-t1384901075
-s49264
-
-N/usr/lib/system/libsystem_c.dylib
-c00000000530299D10000000000168D00
-t1392679377
-s1477888
-
-N/usr/lib/system/libsystem_configuration.dylib
-c00000000537D67B70000000000010630
-t1400727479
-s67120
-
-N/usr/lib/system/libsystem_dnssd.dylib
-c0000000053111FA6000000000001DF10
-t1393631142
-s122640
-
-N/usr/lib/system/libsystem_info.dylib
-c00000000528BE9C20000000000075B00
-t1384901058
-s482048
-
-N/usr/lib/system/libsystem_kernel.dylib
-c00000000536DEAC2000000000007CD60
-t1399712450
-s511328
-
-N/usr/lib/system/libsystem_m.dylib
-c00000000528BE9C200000000000766C0
-t1384901058
-s485056
-
-N/usr/lib/system/libsystem_malloc.dylib
-c00000000530299D00000000000044DC0
-t1392679376
-s282048
-
-N/usr/lib/system/libsystem_notify.dylib
-c00000000528BE9C20000000000021FA0
-t1384901058
-s139168
-
-N/usr/lib/system/libsystem_platform.dylib
-c0000000053111FA6000000000002D920
-t1393631142
-s186656
-
-N/usr/lib/system/libsystem_pthread.dylib
-c00000000528BE9D4000000000001E570
-t1384901076
-s124272
-
-N/usr/lib/system/libsystem_sandbox.dylib
-c00000000537D67B7000000000000CC70
-t1400727479
-s52336
-
-N/usr/lib/system/libunc.dylib
-c00000000528BE9CD000000000000C3F0
-t1384901069
-s50160
-
-N/usr/lib/system/libunwind.dylib
-c00000000528BE9D400000000000199F0
-t1384901076
-s104944
-
-N/var/folders/7j/w3062mfs5pzfs32nqxp_dln80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/myApp-Prefix-awwwwdwvgtwkwzdvgmjdafnaskbs/myApp-Prefix.pch.pch
-t1409068979
-s5376708
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesde58d4c510adb941^e97cd4c510adb941^---0#1#1#--18"Check dependencies36"16A4CA4D-F9F1-423B-B3C2-39885164A960-
-
-CCompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/AppDelegate.o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s430761779.366813
-e430761779.434956
-r1
-xCompileC
-xbuild/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/AppDelegate.o
-x/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/AppDelegate.m
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/AppDelegate.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/MainViewController.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/AppDelegate.m190"CompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/AppDelegate.o myApp/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler08005e33e7acb941^925b6f33e7acb941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/AppDelegate.m0000000000000000^4026"CompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/AppDelegate.o myApp/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-generated-files.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-own-target-headers.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-all-target-headers.hmap -iquote /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-project-headers.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/usr/local/lib/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/UninstalledProducts/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/DerivedSources/i386 -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/DerivedSources -F/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator -include /var/folders/7j/w3062mfs5pzfs32nqxp_dln80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/myApp-Prefix-awwwwdwvgtwkwzdvgmjdafnaskbs/myApp-Prefix.pch -MMD -MT dependencies -MF /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/AppDelegate.dia -c /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/AppDelegate.m -o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/AppDelegate.o36"8A3EA469-DEDC-4616-9EEF-2C94A26E5A2F-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/CDVDevice.o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/org.apache.cordova.device/CDVDevice.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s430761779.368626
-e430761779.434143
-r1
-xCompileC
-xbuild/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/CDVDevice.o
-x/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/org.apache.cordova.device/CDVDevice.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/org.apache.cordova.device/CDVDevice.m
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDV.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/org.apache.cordova.device/CDVDevice.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/org.apache.cordova.device/CDVDevice.m212"CompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/CDVDevice.o myApp/Plugins/org.apache.cordova.device/CDVDevice.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerfa7a5e33e7acb941^07266f33e7acb941^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/org.apache.cordova.device/CDVDevice.m0000000000000000^4066"CompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/CDVDevice.o myApp/Plugins/org.apache.cordova.device/CDVDevice.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-generated-files.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-own-target-headers.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-all-target-headers.hmap -iquote /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-project-headers.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/usr/local/lib/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/UninstalledProducts/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/DerivedSources/i386 -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/DerivedSources -F/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator -include /var/folders/7j/w3062mfs5pzfs32nqxp_dln80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/myApp-Prefix-awwwwdwvgtwkwzdvgmjdafnaskbs/myApp-Prefix.pch -MMD -MT dependencies -MF /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/CDVDevice.d --serialize-diagnostics /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/CDVDevice.dia -c /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/org.apache.cordova.device/CDVDevice.m -o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/CDVDevice.o36"DEE7D119-0B7E-4E0C-82F1-8F5F72A41F26-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/CDVLogger.o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/org.apache.cordova.console/CDVLogger.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s430761779.368202
-e430761779.419000
-r1
-xCompileC
-xbuild/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/CDVLogger.o
-x/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/org.apache.cordova.console/CDVLogger.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/org.apache.cordova.console/CDVLogger.m
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/org.apache.cordova.console/CDVLogger.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDV.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/org.apache.cordova.console/CDVLogger.m213"CompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/CDVLogger.o myApp/Plugins/org.apache.cordova.console/CDVLogger.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5e685e33e7acb941^96436b33e7acb941^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/org.apache.cordova.console/CDVLogger.m0000000000000000^4068"CompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/CDVLogger.o myApp/Plugins/org.apache.cordova.console/CDVLogger.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-generated-files.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-own-target-headers.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-all-target-headers.hmap -iquote /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-project-headers.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/usr/local/lib/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/UninstalledProducts/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/DerivedSources/i386 -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/DerivedSources -F/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator -include /var/folders/7j/w3062mfs5pzfs32nqxp_dln80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/myApp-Prefix-awwwwdwvgtwkwzdvgmjdafnaskbs/myApp-Prefix.pch -MMD -MT dependencies -MF /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/CDVLogger.d --serialize-diagnostics /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/CDVLogger.dia -c /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/org.apache.cordova.console/CDVLogger.m -o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/CDVLogger.o36"C472B645-D141-4974-851B-FF6329985C51-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/IonicKeyboard.o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/IonicKeyboard.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s430761779.367367
-e430761779.433127
-r1
-xCompileC
-xbuild/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/IonicKeyboard.o
-x/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/IonicKeyboard.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/IonicKeyboard.m
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/IonicKeyboard.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/UIWebViewExtension.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/IonicKeyboard.m213"CompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/IonicKeyboard.o myApp/Plugins/com.ionic.keyboard/IonicKeyboard.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler27335e33e7acb941^00e26e33e7acb941^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/IonicKeyboard.m0000000000000000^4076"CompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/IonicKeyboard.o myApp/Plugins/com.ionic.keyboard/IonicKeyboard.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-generated-files.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-own-target-headers.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-all-target-headers.hmap -iquote /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-project-headers.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/usr/local/lib/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/UninstalledProducts/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/DerivedSources/i386 -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/DerivedSources -F/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator -include /var/folders/7j/w3062mfs5pzfs32nqxp_dln80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/myApp-Prefix-awwwwdwvgtwkwzdvgmjdafnaskbs/myApp-Prefix.pch -MMD -MT dependencies -MF /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/IonicKeyboard.d --serialize-diagnostics /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/IonicKeyboard.dia -c /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/IonicKeyboard.m -o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/IonicKeyboard.o36"164272C4-E430-4BA1-B11E-FBAD8E70CFA2-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/MainViewController.o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s430761779.367019
-e430761779.425408
-r1
-xCompileC
-xbuild/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/MainViewController.o
-x/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/MainViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/MainViewController.m
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/MainViewController.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/MainViewController.m204"CompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/MainViewController.o myApp/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compileraf085e33e7acb941^03eb6c33e7acb941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/MainViewController.m0000000000000000^4068"CompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/MainViewController.o myApp/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-generated-files.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-own-target-headers.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-all-target-headers.hmap -iquote /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-project-headers.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/usr/local/lib/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/UninstalledProducts/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/DerivedSources/i386 -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/DerivedSources -F/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator -include /var/folders/7j/w3062mfs5pzfs32nqxp_dln80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/myApp-Prefix-awwwwdwvgtwkwzdvgmjdafnaskbs/myApp-Prefix.pch -MMD -MT dependencies -MF /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/MainViewController.dia -c /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/MainViewController.m -o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/MainViewController.o36"34875BD1-C2C9-4D71-9BD6-2DBADC734AC3-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/UIWebViewExtension.o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/UIWebViewExtension.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s430761779.367806
-e430761779.429938
-r1
-xCompileC
-xbuild/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/UIWebViewExtension.o
-x/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/UIWebViewExtension.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/UIWebViewExtension.m
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/UIWebViewExtension.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/UIWebViewExtension.m223"CompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/UIWebViewExtension.o myApp/Plugins/com.ionic.keyboard/UIWebViewExtension.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera6485e33e7acb941^51126e33e7acb941^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/UIWebViewExtension.m0000000000000000^4106"CompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/UIWebViewExtension.o myApp/Plugins/com.ionic.keyboard/UIWebViewExtension.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-generated-files.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-own-target-headers.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-all-target-headers.hmap -iquote /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-project-headers.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/usr/local/lib/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/UninstalledProducts/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/DerivedSources/i386 -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/DerivedSources -F/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator -include /var/folders/7j/w3062mfs5pzfs32nqxp_dln80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/myApp-Prefix-awwwwdwvgtwkwzdvgmjdafnaskbs/myApp-Prefix.pch -MMD -MT dependencies -MF /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/UIWebViewExtension.d --serialize-diagnostics /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/UIWebViewExtension.dia -c /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Plugins/com.ionic.keyboard/UIWebViewExtension.m -o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/UIWebViewExtension.o36"5D36493D-38D2-4B45-AE5D-2AC82C85D41E-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/main.o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s430761779.366638
-e430761779.387282
-r1
-xCompileC
-xbuild/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/main.o
-x/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/main.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/main.m168"CompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/main.o myApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercbf65d33e7acb941^7c2a6333e7acb941^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/main.m0000000000000000^3968"CompileC build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/main.o myApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-generated-files.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-own-target-headers.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-all-target-headers.hmap -iquote /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-project-headers.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/usr/local/lib/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/UninstalledProducts/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/DerivedSources/i386 -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/DerivedSources -F/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator -include /var/folders/7j/w3062mfs5pzfs32nqxp_dln80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/myApp-Prefix-awwwwdwvgtwkwzdvgmjdafnaskbs/myApp-Prefix.pch -MMD -MT dependencies -MF /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/main.dia -c /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/main.m -o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/main.o36"797B8AEB-257D-40F1-855D-F91228C4E5B6-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCompileXIB /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/MainViewController.xib
-s430761778.154235
-e430761779.120109
-r1
-xCompileXIB
-x/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/MainViewController.xib
-o2014-08-26 12:02:58.732 Interface Builder Cocoa Touch Tool[4902:303] CFPreferences: user home directory at file:///Users/wisam/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compiling /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/MainViewController.xib47"CompileXIB myApp/Classes/MainViewController.xibae9e2732e7acb941^72c01e33e7acb941^-229"2014-08-26 12:02:58.732 Interface Builder Cocoa Touch Tool[4902:303] CFPreferences: user home directory at file:///Users/wisam/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@108"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/MainViewController.xib0000000000000000^1033"CompileXIB myApp/Classes/MainViewController.xib    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.0 --output-format human-readable-text --compile /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/MainViewController.nib /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Classes/MainViewController.xib36"0E9F5260-C818-45B4-BCD6-B480EDF439B0-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCopyStringsFile /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/de.lproj/Localizable.strings myApp/Resources/de.lproj/Localizable.strings
-s430761778.155086
-e430761778.156650
-r1
-xCopyStringsFile
-x/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/de.lproj/Localizable.strings
-xmyApp/Resources/de.lproj/Localizable.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy myApp/Resources/de.lproj/Localizable.strings114"CopyStringsFile build/emulator/myApp.app/de.lproj/Localizable.strings myApp/Resources/de.lproj/Localizable.strings57cd2732e7acb941^481a2832e7acb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/de.lproj/Localizable.strings0000000000000000^817"CopyStringsFile build/emulator/myApp.app/de.lproj/Localizable.strings myApp/Resources/de.lproj/Localizable.strings    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/de.lproj -- myApp/Resources/de.lproj/Localizable.strings36"DED7F65C-5BEA-4C9B-A47E-A2CAA3DFA201-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCopyStringsFile /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/en.lproj/Localizable.strings myApp/Resources/en.lproj/Localizable.strings
-s430761778.153760
-e430761778.155664
-r1
-xCopyStringsFile
-x/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/en.lproj/Localizable.strings
-xmyApp/Resources/en.lproj/Localizable.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy myApp/Resources/en.lproj/Localizable.strings114"CopyStringsFile build/emulator/myApp.app/en.lproj/Localizable.strings myApp/Resources/en.lproj/Localizable.stringsbf7f2732e7acb941^9fe32732e7acb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/en.lproj/Localizable.strings0000000000000000^817"CopyStringsFile build/emulator/myApp.app/en.lproj/Localizable.strings myApp/Resources/en.lproj/Localizable.strings    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/en.lproj -- myApp/Resources/en.lproj/Localizable.strings36"850A4D6F-EF48-43AC-8B51-A65DA0DF642B-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/icons/icon-40.png build/emulator/myApp.app/icon-40.png
-s430761778.157539
-e430761778.158702
-r1
-xCpResource
-xmyApp/Resources/icons/icon-40.png
-xbuild/emulator/myApp.app/icon-40.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy build/emulator/myApp.app/icon-40.png81"CpResource myApp/Resources/icons/icon-40.png build/emulator/myApp.app/icon-40.pnga3752832e7acb941^09a42832e7acb941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-40.png0034b463deffdf42^848"CpResource myApp/Resources/icons/icon-40.png build/emulator/myApp.app/icon-40.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-40.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"EFE5857F-CFE4-4B2A-899C-1FED46C80421-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/icons/icon-40@2x.png build/emulator/myApp.app/icon-40@2x.png
-s430761778.152247
-e430761778.153195
-r1
-xCpResource
-xmyApp/Resources/icons/icon-40@2x.png
-xbuild/emulator/myApp.app/icon-40@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy build/emulator/myApp.app/icon-40@2x.png87"CpResource myApp/Resources/icons/icon-40@2x.png build/emulator/myApp.app/icon-40@2x.pngcc0c2732e7acb941^344a2732e7acb941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-40@2x.png0034b463deffdf42^857"CpResource myApp/Resources/icons/icon-40@2x.png build/emulator/myApp.app/icon-40@2x.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-40@2x.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"5CDACB6E-87F4-494E-9D20-82657127B007-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/icons/icon-50.png build/emulator/myApp.app/icon-50.png
-s430761778.154493
-e430761778.155619
-r1
-xCpResource
-xmyApp/Resources/icons/icon-50.png
-xbuild/emulator/myApp.app/icon-50.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy build/emulator/myApp.app/icon-50.png81"CpResource myApp/Resources/icons/icon-50.png build/emulator/myApp.app/icon-50.pnge6ac2732e7acb941^b1db2732e7acb941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-50.png0034b463deffdf42^848"CpResource myApp/Resources/icons/icon-50.png build/emulator/myApp.app/icon-50.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-50.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"7D1C7034-9E7F-4108-9F56-8301EAB09D33-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/icons/icon-50@2x.png build/emulator/myApp.app/icon-50@2x.png
-s430761778.159076
-e430761778.159906
-r1
-xCpResource
-xmyApp/Resources/icons/icon-50@2x.png
-xbuild/emulator/myApp.app/icon-50@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy build/emulator/myApp.app/icon-50@2x.png87"CpResource myApp/Resources/icons/icon-50@2x.png build/emulator/myApp.app/icon-50@2x.png7dcf2832e7acb941^0bed2832e7acb941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-50@2x.png0034b463deffdf42^857"CpResource myApp/Resources/icons/icon-50@2x.png build/emulator/myApp.app/icon-50@2x.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-50@2x.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"8F5EC3BF-DBD1-4F96-B630-9C71DDCA4914-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/icons/icon-60.png build/emulator/myApp.app/icon-60.png
-s430761778.158060
-e430761778.159063
-r1
-xCpResource
-xmyApp/Resources/icons/icon-60.png
-xbuild/emulator/myApp.app/icon-60.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy build/emulator/myApp.app/icon-60.png81"CpResource myApp/Resources/icons/icon-60.png build/emulator/myApp.app/icon-60.png2d942832e7acb941^e9ba2832e7acb941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-60.png0034b463deffdf42^848"CpResource myApp/Resources/icons/icon-60.png build/emulator/myApp.app/icon-60.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-60.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"38EF6C53-01DD-4A2A-AD74-0BF2885B8AFA-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/icons/icon-60@2x.png build/emulator/myApp.app/icon-60@2x.png
-s430761778.154847
-e430761778.155937
-r1
-xCpResource
-xmyApp/Resources/icons/icon-60@2x.png
-xbuild/emulator/myApp.app/icon-60@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy build/emulator/myApp.app/icon-60@2x.png87"CpResource myApp/Resources/icons/icon-60@2x.png build/emulator/myApp.app/icon-60@2x.png6ec02732e7acb941^79072832e7acb941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-60@2x.png0034b463deffdf42^857"CpResource myApp/Resources/icons/icon-60@2x.png build/emulator/myApp.app/icon-60@2x.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-60@2x.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"D6FEC4EA-B011-4D9C-BEFB-CFF933379E81-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/icons/icon-72.png build/emulator/myApp.app/icon-72.png
-s430761778.152394
-e430761778.153578
-r1
-xCpResource
-xmyApp/Resources/icons/icon-72.png
-xbuild/emulator/myApp.app/icon-72.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy build/emulator/myApp.app/icon-72.png81"CpResource myApp/Resources/icons/icon-72.png build/emulator/myApp.app/icon-72.png681f2732e7acb941^54712732e7acb941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-72.png0034b463deffdf42^848"CpResource myApp/Resources/icons/icon-72.png build/emulator/myApp.app/icon-72.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-72.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"5B967F91-DD75-4ACC-A679-CD995F95CAD8-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/icons/icon-72@2x.png build/emulator/myApp.app/icon-72@2x.png
-s430761778.159747
-e430761778.160498
-r1
-xCpResource
-xmyApp/Resources/icons/icon-72@2x.png
-xbuild/emulator/myApp.app/icon-72@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy build/emulator/myApp.app/icon-72@2x.png87"CpResource myApp/Resources/icons/icon-72@2x.png build/emulator/myApp.app/icon-72@2x.png5af62832e7acb941^ec162932e7acb941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-72@2x.png0034b463deffdf42^857"CpResource myApp/Resources/icons/icon-72@2x.png build/emulator/myApp.app/icon-72@2x.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-72@2x.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"711125B3-64AE-4DD2-AFBC-8FBC26038D9B-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/icons/icon-76.png build/emulator/myApp.app/icon-76.png
-s430761778.152113
-e430761778.152976
-r1
-xCpResource
-xmyApp/Resources/icons/icon-76.png
-xbuild/emulator/myApp.app/icon-76.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy build/emulator/myApp.app/icon-76.png81"CpResource myApp/Resources/icons/icon-76.png build/emulator/myApp.app/icon-76.pngeb012732e7acb941^5a2a2732e7acb941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-76.png0034b463deffdf42^848"CpResource myApp/Resources/icons/icon-76.png build/emulator/myApp.app/icon-76.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-76.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"96A1D686-66C9-42B3-8455-9AA80E2706E6-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/icons/icon-76@2x.png build/emulator/myApp.app/icon-76@2x.png
-s430761778.159509
-e430761778.160368
-r1
-xCpResource
-xmyApp/Resources/icons/icon-76@2x.png
-xbuild/emulator/myApp.app/icon-76@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy build/emulator/myApp.app/icon-76@2x.png87"CpResource myApp/Resources/icons/icon-76@2x.png build/emulator/myApp.app/icon-76@2x.pngeeeb2832e7acb941^780e2932e7acb941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-76@2x.png0034b463deffdf42^857"CpResource myApp/Resources/icons/icon-76@2x.png build/emulator/myApp.app/icon-76@2x.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-76@2x.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"4593ED46-3E11-4F7E-8BF8-1A61312A42AC-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/icons/icon-small.png build/emulator/myApp.app/icon-small.png
-s430761778.155491
-e430761778.156470
-r1
-xCpResource
-xmyApp/Resources/icons/icon-small.png
-xbuild/emulator/myApp.app/icon-small.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy build/emulator/myApp.app/icon-small.png87"CpResource myApp/Resources/icons/icon-small.png build/emulator/myApp.app/icon-small.png5beb2732e7acb941^d00e2832e7acb941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-small.png0034b463deffdf42^857"CpResource myApp/Resources/icons/icon-small.png build/emulator/myApp.app/icon-small.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-small.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"3D6E7095-E8BA-4C74-9F73-868AB4D8051E-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/icons/icon-small@2x.png build/emulator/myApp.app/icon-small@2x.png
-s430761778.156913
-e430761778.158027
-r1
-xCpResource
-xmyApp/Resources/icons/icon-small@2x.png
-xbuild/emulator/myApp.app/icon-small@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/emulator/myApp.app/icon-small@2x.png93"CpResource myApp/Resources/icons/icon-small@2x.png build/emulator/myApp.app/icon-small@2x.png253d2832e7acb941^5c762832e7acb941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon-small@2x.png0034b463deffdf42^866"CpResource myApp/Resources/icons/icon-small@2x.png build/emulator/myApp.app/icon-small@2x.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon-small@2x.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"A76A794B-2786-4DF9-8DED-32FF5BB43E52-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/icons/icon.png build/emulator/myApp.app/icon.png
-s430761778.152626
-e430761778.153885
-r1
-xCpResource
-xmyApp/Resources/icons/icon.png
-xbuild/emulator/myApp.app/icon.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy build/emulator/myApp.app/icon.png75"CpResource myApp/Resources/icons/icon.png build/emulator/myApp.app/icon.png40342732e7acb941^cd8f2732e7acb941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon.png0034b463deffdf42^839"CpResource myApp/Resources/icons/icon.png build/emulator/myApp.app/icon.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"058B27F2-E4C8-444B-A04F-C8F7C082A60D-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/icons/icon@2x.png build/emulator/myApp.app/icon@2x.png
-s430761778.153142
-e430761778.154531
-r1
-xCpResource
-xmyApp/Resources/icons/icon@2x.png
-xbuild/emulator/myApp.app/icon@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy build/emulator/myApp.app/icon@2x.png81"CpResource myApp/Resources/icons/icon@2x.png build/emulator/myApp.app/icon@2x.png87522732e7acb941^94a02732e7acb941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/icon@2x.png0034b463deffdf42^848"CpResource myApp/Resources/icons/icon@2x.png build/emulator/myApp.app/icon@2x.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/icons/icon@2x.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"9A20CD86-600F-44FA-9177-48A95CE9E8E4-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/splash/Default-568h@2x~iphone.png build/emulator/myApp.app/Default-568h@2x~iphone.png
-s430761778.158512
-e430761778.159489
-r1
-xCpResource
-xmyApp/Resources/splash/Default-568h@2x~iphone.png
-xbuild/emulator/myApp.app/Default-568h@2x~iphone.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/emulator/myApp.app/Default-568h@2x~iphone.png112"CpResource myApp/Resources/splash/Default-568h@2x~iphone.png build/emulator/myApp.app/Default-568h@2x~iphone.png86ae2832e7acb941^d0d32832e7acb941^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/Default-568h@2x~iphone.png0034b463deffdf42^895"CpResource myApp/Resources/splash/Default-568h@2x~iphone.png build/emulator/myApp.app/Default-568h@2x~iphone.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/splash/Default-568h@2x~iphone.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"C1289FE0-A128-4946-BF51-ABC1B54D537B-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/myApp.app/Default-Landscape@2x~ipad.png
-s430761778.155745
-e430761778.156997
-r1
-xCpResource
-xmyApp/Resources/splash/Default-Landscape@2x~ipad.png
-xbuild/emulator/myApp.app/Default-Landscape@2x~ipad.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/emulator/myApp.app/Default-Landscape@2x~ipad.png118"CpResource myApp/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/myApp.app/Default-Landscape@2x~ipad.png6afb2732e7acb941^66322832e7acb941^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/Default-Landscape@2x~ipad.png0034b463deffdf42^904"CpResource myApp/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/myApp.app/Default-Landscape@2x~ipad.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/splash/Default-Landscape@2x~ipad.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"ABAEBCB3-FECF-4FC4-920A-48F91078ADEA-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/splash/Default-Landscape~ipad.png build/emulator/myApp.app/Default-Landscape~ipad.png
-s430761778.156277
-e430761778.157234
-r1
-xCpResource
-xmyApp/Resources/splash/Default-Landscape~ipad.png
-xbuild/emulator/myApp.app/Default-Landscape~ipad.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/emulator/myApp.app/Default-Landscape~ipad.png112"CpResource myApp/Resources/splash/Default-Landscape~ipad.png build/emulator/myApp.app/Default-Landscape~ipad.png3f1c2832e7acb941^5b402832e7acb941^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/Default-Landscape~ipad.png0034b463deffdf42^895"CpResource myApp/Resources/splash/Default-Landscape~ipad.png build/emulator/myApp.app/Default-Landscape~ipad.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/splash/Default-Landscape~ipad.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"CEA09169-EFF6-4544-99D2-B52B4A16F897-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/myApp.app/Default-Portrait@2x~ipad.png
-s430761778.156659
-e430761778.157748
-r1
-xCpResource
-xmyApp/Resources/splash/Default-Portrait@2x~ipad.png
-xbuild/emulator/myApp.app/Default-Portrait@2x~ipad.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/emulator/myApp.app/Default-Portrait@2x~ipad.png116"CpResource myApp/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/myApp.app/Default-Portrait@2x~ipad.pngf92f2832e7acb941^a2622832e7acb941^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/Default-Portrait@2x~ipad.png0034b463deffdf42^901"CpResource myApp/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/myApp.app/Default-Portrait@2x~ipad.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/splash/Default-Portrait@2x~ipad.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"A6789A69-EC9E-4920-B23A-2F5275A709B9-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/splash/Default-Portrait~ipad.png build/emulator/myApp.app/Default-Portrait~ipad.png
-s430761778.157235
-e430761778.158113
-r1
-xCpResource
-xmyApp/Resources/splash/Default-Portrait~ipad.png
-xbuild/emulator/myApp.app/Default-Portrait~ipad.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/emulator/myApp.app/Default-Portrait~ipad.png110"CpResource myApp/Resources/splash/Default-Portrait~ipad.png build/emulator/myApp.app/Default-Portrait~ipad.pngf4532832e7acb941^137f2832e7acb941^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/Default-Portrait~ipad.png0034b463deffdf42^892"CpResource myApp/Resources/splash/Default-Portrait~ipad.png build/emulator/myApp.app/Default-Portrait~ipad.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/splash/Default-Portrait~ipad.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"4BA58651-3C89-41DB-8E93-5C7AEE7D79F5-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/splash/Default@2x~iphone.png build/emulator/myApp.app/Default@2x~iphone.png
-s430761778.157819
-e430761778.158924
-r1
-xCpResource
-xmyApp/Resources/splash/Default@2x~iphone.png
-xbuild/emulator/myApp.app/Default@2x~iphone.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/emulator/myApp.app/Default@2x~iphone.png102"CpResource myApp/Resources/splash/Default@2x~iphone.png build/emulator/myApp.app/Default@2x~iphone.pngc2852832e7acb941^29b02832e7acb941^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/Default@2x~iphone.png0034b463deffdf42^880"CpResource myApp/Resources/splash/Default@2x~iphone.png build/emulator/myApp.app/Default@2x~iphone.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/splash/Default@2x~iphone.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"AE5E11E7-5117-482A-9556-703A09514EC5-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CCpResource myApp/Resources/splash/Default~iphone.png build/emulator/myApp.app/Default~iphone.png
-s430761778.158277
-e430761778.159359
-r1
-xCpResource
-xmyApp/Resources/splash/Default~iphone.png
-xbuild/emulator/myApp.app/Default~iphone.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/myApp.app/Default~iphone.png96"CpResource myApp/Resources/splash/Default~iphone.png build/emulator/myApp.app/Default~iphone.pngf4a82832e7acb941^9acc2832e7acb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/Default~iphone.png0034b463deffdf42^871"CpResource myApp/Resources/splash/Default~iphone.png build/emulator/myApp.app/Default~iphone.png    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/Resources/splash/Default~iphone.png /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"8D2EBE2D-58DA-4875-8EBB-8B80F5415092-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CGenerateDSYMFile /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app.dSYM /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/myApp
-s430772422.032058
-e430772422.065226
-r1
-xGenerateDSYMFile
-x/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app.dSYM
-x/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/myApp
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Generate /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app.dSYM77"GenerateDSYMFile build/emulator/myApp.app.dSYM build/emulator/myApp.app/myAppd44308c610adb941^5fb310c610adb941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app.dSYM/0000000000000000^837"GenerateDSYMFile build/emulator/myApp.app.dSYM build/emulator/myApp.app/myApp    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/myApp -o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app.dSYM36"FD72A8C3-CA45-48B5-BDF7-6D9C2EA8B011-
-b5F889BE9-2381-445C-84D2-2C03FA5ABDD6
-
-CLd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/myApp normal i386
-s430761779.435846
-e430761779.482040
-r1
-xLd
-x/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/myApp
-xnormal
-xi386
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/myApp.LinkFileList
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/libCordova.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/main.o
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/AppDelegate.o
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/MainViewController.o
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/IonicKeyboard.o
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/UIWebViewExtension.o
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/CDVLogger.o
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/CDVDevice.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
-d/usr/lib/libSystem.B.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
-d/usr/lib/system/libcache.dylib
-d/usr/lib/system/libcommonCrypto.dylib
-d/usr/lib/system/libcompiler_rt.dylib
-d/usr/lib/system/libcopyfile.dylib
-d/usr/lib/system/libcorecrypto.dylib
-d/usr/lib/system/libkeymgr.dylib
-d/usr/lib/system/liblaunch.dylib
-d/usr/lib/system/libmacho.dylib
-d/usr/lib/system/libquarantine.dylib
-d/usr/lib/system/libremovefile.dylib
-d/usr/lib/system/libsystem_asl.dylib
-d/usr/lib/system/libsystem_blocks.dylib
-d/usr/lib/system/libsystem_c.dylib
-d/usr/lib/system/libsystem_configuration.dylib
-d/usr/lib/system/libsystem_dnssd.dylib
-d/usr/lib/system/libsystem_info.dylib
-d/usr/lib/system/libsystem_kernel.dylib
-d/usr/lib/system/libsystem_m.dylib
-d/usr/lib/system/libsystem_malloc.dylib
-d/usr/lib/system/libsystem_notify.dylib
-d/usr/lib/system/libsystem_platform.dylib
-d/usr/lib/system/libsystem_pthread.dylib
-d/usr/lib/system/libsystem_sandbox.dylib
-d/usr/lib/system/libunc.dylib
-d/usr/lib/system/libunwind.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Link /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/myApp45"Ld build/emulator/myApp.app/myApp normal i386dfa66f33e7acb941^f5677b33e7acb941^---0#0#1#--1973"Ld build/emulator/myApp.app/myApp normal i386    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator -F/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator -filelist /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/myApp.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework AssetsLibrary /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Objects-normal/i386/myApp_dependency_info.dat -o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/myApp36"81F420B9-C790-466A-BD5D-949578AC6321-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CPhaseScriptExecution Copy\ www\ directory /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Script-304B58A110DAC018002A0835.sh
-s430772421.832981
-e430772422.026585
-r1
-xPhaseScriptExecution
-xCopy www directory
-x/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Script-304B58A110DAC018002A0835.sh
-o
-oreal	0m0.173s
-ouser	0m0.068s
-osys	0m0.104s
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'128"PhaseScriptExecution Copy\ www\ directory build/myApp.build/Debug-iphonesimulator/myApp.build/Script-304B58A110DAC018002A0835.sha587d5c510adb941^89d206c610adb941^-42"real	0m0.173suser	0m0.068ssys	0m0.104s3(21%IDEActivityLogMessage2@14"real	0m0.173s-430772422#1#14#-0#-----2@14"user	0m0.068s-430772422#15#14#-0#-----2@13"sys	0m0.104s-430772422#29#13#-0#-----0#0#1#--368"PhaseScriptExecution Copy\ www\ directory build/myApp.build/Debug-iphonesimulator/myApp.build/Script-304B58A110DAC018002A0835.sh    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    /bin/sh -c /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/Script-304B58A110DAC018002A0835.sh36"F080BC27-70E2-49B1-BDF0-395F2A50CF10-
-b5F889BE9-2381-445C-84D2-2C03FA5ABDD6
-
-CProcessInfoPlistFile /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/Info.plist /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/myApp-Info.plist
-s430772421.830652
-e430772421.832085
-r1
-xProcessInfoPlistFile
-x/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/Info.plist
-x/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/myApp-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Process /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/myApp-Info.plist79"ProcessInfoPlistFile build/emulator/myApp.app/Info.plist myApp/myApp-Info.plistcbb9d4c510adb941^9703d5c510adb941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/myApp-Info.plist0000000000000000^938"ProcessInfoPlistFile build/emulator/myApp.app/Info.plist myApp/myApp-Info.plist    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    builtin-infoPlistUtility /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/myApp-Info.plist -genpkginfo /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app/Info.plist36"DFE5F9D3-D5CB-4FFC-8BD9-FFD7F49B8862-
-b5F889BE9-2381-445C-84D2-2C03FA5ABDD6
-
-CProcessPCH /var/folders/7j/w3062mfs5pzfs32nqxp_dln80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/myApp-Prefix-awwwwdwvgtwkwzdvgmjdafnaskbs/myApp-Prefix.pch.pch myApp/myApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s430761779.120776
-e430761779.365894
-r1
-xProcessPCH
-x/var/folders/7j/w3062mfs5pzfs32nqxp_dln80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/myApp-Prefix-awwwwdwvgtwkwzdvgmjdafnaskbs/myApp-Prefix.pch.pch
-xmyApp/myApp-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/myApp-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile myApp/myApp-Prefix.pch282"ProcessPCH /var/folders/7j/w3062mfs5pzfs32nqxp_dln80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/myApp-Prefix-awwwwdwvgtwkwzdvgmjdafnaskbs/myApp-Prefix.pch.pch myApp/myApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8a001f33e7acb941^fbad5d33e7acb941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/myApp-Prefix.pch0000000000000000^4020"ProcessPCH /var/folders/7j/w3062mfs5pzfs32nqxp_dln80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/myApp-Prefix-awwwwdwvgtwkwzdvgmjdafnaskbs/myApp-Prefix.pch.pch myApp/myApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-generated-files.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-own-target-headers.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-all-target-headers.hmap -iquote /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/myApp-project-headers.hmap -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/usr/local/lib/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/UninstalledProducts/include -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/DerivedSources/i386 -I/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/myApp.build/Debug-iphonesimulator/myApp.build/DerivedSources -F/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator --serialize-diagnostics /var/folders/7j/w3062mfs5pzfs32nqxp_dln80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/myApp-Prefix-awwwwdwvgtwkwzdvgmjdafnaskbs/myApp-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/7j/w3062mfs5pzfs32nqxp_dln80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/myApp-Prefix-awwwwdwvgtwkwzdvgmjdafnaskbs/myApp-Prefix.pch.d -c /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/myApp/myApp-Prefix.pch -o /var/folders/7j/w3062mfs5pzfs32nqxp_dln80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/myApp-Prefix-awwwwdwvgtwkwzdvgmjdafnaskbs/myApp-Prefix.pch.pch36"CC38FF33-752C-45F8-B346-40B668AD77C2-
-b5F363BD1-DE5C-4604-929F-894418F60A34
-
-CTouch /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app
-s430772422.066036
-e430772422.069520
-r1
-xTouch
-x/Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Touch /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app30"Touch build/emulator/myApp.app97ff10c610adb941^18ce11c610adb941^---0#0#1#--608"Touch build/emulator/myApp.app    cd /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/wisam/Downloads/adt-bundle-mac-x86_64-20140702/sdk/tools:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/wisam/.rvm/bin:/usr/local/git/bin:/usr/local/bin"    /usr/bin/touch -c /Users/wisam/Developer/Code/Web/ionicProject/myApp/platforms/ios/build/emulator/myApp.app36"97DAF982-A582-4A5E-90CA-0DE6B4C77CFC-
-b5F889BE9-2381-445C-84D2-2C03FA5ABDD6
-
