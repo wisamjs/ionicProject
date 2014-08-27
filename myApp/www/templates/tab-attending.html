@@ -1,0 +1,14 @@
+<ion-view title="Attending">
+  <ion-content class="has-header padding">
+   <ion-list>
+      <ion-item ng-repeat="concert in attendingConcerts" ng-model="concert" type="item-text-wrap">
+        <img ng-src={{concert.image[2]['#text']}} alt="">
+        <h2>{{ concert.title}}</h2>
+        <ul>
+          <li>{{ concert.venue.name}} , {{ concert.venue.location.city}} , {{ concert.venue.location.country}}</li>
+          <li>{{ concert.startDate}}</li>
+        </ul>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

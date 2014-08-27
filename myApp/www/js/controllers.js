@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('ConcertsCtrl',function($scope, $log, Music){
+.controller('ConcertsCtrl',function($scope, $log, Music, userData){
 	var userConcerts = [];
 
 	$scope.getConcerts = Music.getConcerts()
@@ -11,24 +11,17 @@ angular.module('starter.controllers', [])
 	}).then(null,$log.error);
 
 	$scope.addToUser = function(concert){
-
-		//remove concert if already selected
-		if (_.contains(userConcerts,concert)){
-			userConcerts = _.without(userConcerts,concert);
-
-		}else{
-
-		userConcerts.push(concert);
-		}
-		$log.info(userConcerts);
-
+		return userData.toogleConcert(concert);
 	}
 
 	$scope.isSelected = function(concert){
-		if (_.contains(userConcerts,concert)){
-			return true;
-
-		}
-		return false;
+		return userData.isAttending(concert);
 	}
+})
+
+.controller('AttendingCtrl', function($scope, $log, Music, userData){
+	$scope.attendingConcerts = userData.getUserConcerts();
+
+	$log.info($scope.attendingConcerts);
+
 });

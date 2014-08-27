@@ -22,7 +22,7 @@ angular.module('starter', ['ionic','starter.controllers','starter.services'])
   $stateProvider
   // setup an abstract state for the tabs directive
   .state('tab', {
-    url: "/tab",
+    url: '/tab',
     abstract: true,
     templateUrl: "templates/tabs.html"
   })
@@ -35,6 +35,16 @@ angular.module('starter', ['ionic','starter.controllers','starter.services'])
       }
     }
   })
+  .state('tab.attending',{
+    url: '/attending',
+    views: {
+      'tab-attending': {
+        templateUrl: 'templates/tab-attending.html',
+        controller: 'AttendingCtrl'
+      }
+    }
+  })
+
 
 
   $urlRouterProvider.otherwise('/tab/concerts');
