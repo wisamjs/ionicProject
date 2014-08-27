@@ -7,7 +7,7 @@ angular.module('starter.services',[])
 	music.getConcerts = function(){
 		return $http.get(API_BASE_URL+API_KEY+'&method=geo.getevents&location=toronto')
 			.then(function(response){
-				$log.info(response.data.events.event[0].image[3]['#text']);
+				$log.info(response.data.events.event[0]);
 				return response.data.events.event
 			});
 	}

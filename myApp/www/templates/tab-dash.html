@@ -1,9 +1,14 @@
 <ion-view title="Concerts">
   <ion-content class="has-header padding">
    <ion-list>
-      <ion-item ng-repeat="concert in concerts" type="item-text-wrap">
-        <img ng-src={{concert.image[3]['#text']}} alt="">
-        {{ concert.title}}
+      <ion-item ng-repeat="concert in concerts" ng-model="concert" type="item-text-wrap">
+        <img ng-src={{concert.image[2]['#text']}} alt="">
+        <h2>{{ concert.title}}</h2>
+        <ul>
+        	<li>{{ concert.venue.name}} , {{ concert.venue.location.city}} , {{ concert.venue.location.country}}</li>
+        	<li>{{ concert.startDate}}</li>
+        </ul>
+        <button class="button button-light" ng-click="addToUser(concert)"ng-class="{'button-balanced': isSelected(concert)}">Attending</button>
       </ion-item>
     </ion-list>
   </ion-content>
