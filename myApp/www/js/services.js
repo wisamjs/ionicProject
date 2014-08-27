@@ -13,4 +13,36 @@ angular.module('starter.services',[])
 	}
 
 	return music;
+})
+
+
+.factory('userData', function($http, $log){
+	var userConcerts = [];
+
+	return {
+
+		toogleConcert: function(concert){
+			//remove concert if already selected
+			if (_.contains(userConcerts,concert)){
+
+				userConcerts = _.without(userConcerts,concert);
+			}else{
+
+				userConcerts.push(concert);
+			}
+			$log.info(userConcerts);
+			return userConcerts;
+		},
+		getUserConcerts: function(){
+			return userConcerts;
+
+		},
+		isAttending: function(concert){
+			if (_.contains(userConcerts,concert)){
+				return true;
+			}
+			return false;
+		}
+	};
+
 });
