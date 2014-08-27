@@ -26,16 +26,16 @@ angular.module('starter', ['ionic','starter.controllers','starter.services'])
     abstract: true,
     templateUrl: "templates/tabs.html"
   })
-  .state('tab.dash',{
-    url: '/dash',
+  .state('tab.concerts',{
+    url: '/concerts',
     views: {
-      'tab-dash': {
-        templateUrl: 'templates/tab-dash.html',
-        controller: 'DashCtrl'
+      'tab-concerts': {
+        templateUrl: 'templates/tab-concerts.html',
+        controller: 'ConcertsCtrl'
       }
     }
   })
 
 
-  $urlRouterProvider.otherwise('/tab/dash');
+  $urlRouterProvider.otherwise('/tab/concerts');
 });
