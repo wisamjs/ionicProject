@@ -32,6 +32,9 @@ angular.module('starter.controllers', [])
 
 })
 
+.controller('ConcertDetailCtrl', function($scope, $log, Music, userData){
+
+	$scope.attendingConcerts = userData.getUserConcerts();
 	$log.info($scope.attendingConcerts);
 
 });

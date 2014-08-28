@@ -1,7 +1,7 @@
 <ion-view title="Concerts">
   <ion-content class="has-header padding">
    <ion-list>
-      <ion-item ng-repeat="concert in concerts" ng-model="concert" type="item-text-wrap">
+      <ion-item ng-repeat="concert in concerts" ng-model="concert" type="item-text-wrap" href="#/tab/concert/{{concert.id}}" >
         <img ng-src={{concert.image[2]['#text']}} alt="">
         <h2>{{ concert.title}}</h2>
         <ul>
